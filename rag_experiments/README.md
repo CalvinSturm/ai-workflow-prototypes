@@ -38,7 +38,7 @@ Built to demonstrate how Enterprise data can be queried securely without API cal
 
 1. Clone the repo
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/CalvinSturm/ai-workflow-prototypes.git
     cd local-writer
     ```
 
@@ -49,19 +49,19 @@ Built to demonstrate how Enterprise data can be queried securely without API cal
 3. Activate environment
 
 # Windows:
-   ```bash
+```bash
     venv\Scripts\activate
-    ```
+```
 
 # Mac/Linux:
 ```bash
     source venv/bin/activate
-    ```
+```
 
 4. Install dependencies
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
     
 ## 🚀 How to Run
 
@@ -70,14 +70,14 @@ Ensure the Ollama app is running in the background (check your system tray).
 
 **Step 2: Generate Test Data (Optional)**
 If you don't have a PDF handy, generate 3 synthetic enterprise documents:
-   ```bash
+```bash
     python generate_data.py
-    ```
+```
 
 **Step 3: Launch the UI**
-   ```bash
+```bash
     streamlit run app.py
-    ```
+```
 
 This will open the interface in your web browser at http://localhost:8501.
 
