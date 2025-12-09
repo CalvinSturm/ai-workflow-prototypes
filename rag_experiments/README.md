@@ -27,6 +27,7 @@ Built to demonstrate how Enterprise data can be queried securely without API cal
 ## ⚙️ Prerequisites
 
 1.  **Install Ollama:** [Download here](https://ollama.com/)
+
 2.  **Pull the Models:**
     ```bash
     ollama pull llama3
@@ -53,7 +54,7 @@ Built to demonstrate how Enterprise data can be queried securely without API cal
     ```
 
 # Mac/Linux:
-   ```bash
+```bash
     source venv/bin/activate
     ```
 
@@ -77,7 +78,7 @@ If you don't have a PDF handy, generate 3 synthetic enterprise documents:
    ```bash
     streamlit run app.py
     ```
-    
+
 This will open the interface in your web browser at http://localhost:8501.
 
 **Step 4: Use the System**
